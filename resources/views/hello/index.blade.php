@@ -1,14 +1,17 @@
-<html>
-    <head>
-        <title>Hello index</title>
-    </head>
-    <body>
-        <h1>Bladeの利用</h1>
-        <p>{{ $msg }}</p>
-        <form method="POST" action="/hello">
-            {{ csrf_field() }}
-            <input type="text" name="msg">
-            <input type="submit" name="送信">
-        </form>
-    </body>
-</html>
+@extends('layouts.helloapp')
+
+@section('title', 'Index')
+
+@section('menubar')
+    @parent
+    インデックスページ
+@endsection
+
+@section('content')
+    <p>本文コンテンツ</p>
+    <p>本文コンテンツ</p>
+@endsection
+
+@section('footer')
+    <small>copy &copy;</small>
+@endsection
