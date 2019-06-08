@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="-159">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -283,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559974344433</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="edit グローバルミドルウェアを使う">
+      <created>1559974578915</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559974578915</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10200000" />
+    <option name="totallyTimeSpent" value="10375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -376,7 +383,8 @@
     <MESSAGE value="edit ビューコンポーザーの使い方（ビューコンポーザーの読み込み）" />
     <MESSAGE value="edit ミドルウェアの作成と定義" />
     <MESSAGE value="edit コントローラー呼び出し後にミドルウェアを実行する" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit コントローラー呼び出し後にミドルウェアを実行する" />
+    <MESSAGE value="edit グローバルミドルウェアを使う" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit グローバルミドルウェアを使う" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/hello/index.php">
@@ -457,15 +465,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state relative-caret-position="-159">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
