@@ -14,7 +14,7 @@
         <p>name:<input type="text" name="name" value="{{ $form->name }}"></p>
         <p>mail:<input type="text" name="mail" value="{{ $form->mail }}"></p>
         <p>age:<input type="text" name="age" value="{{ $form->age }}"></p>
-        <p><input type="submit" value="登録"></p>
+        <p><input type="submit" value="削除"></p>
     </form>
 @endsection
 
