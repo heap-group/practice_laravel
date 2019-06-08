@@ -11,8 +11,9 @@
     <p>本文コンテンツ</p>
     <p>本文コンテンツ</p>
 
-    @include('components.massage', ['message_title' => 'OK',
-    'message_content' => 'サブビュー'])
+    <ul>
+        @each('components.item', $data, 'item')
+    </ul>
 
 @endsection
 
