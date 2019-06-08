@@ -11,15 +11,9 @@
     <p>本文コンテンツ</p>
     <p>本文コンテンツ</p>
 
-    @component('components.massage')
-        @slot('message_title')
-            CAUTION!
-        @endslot
+    @include('components.massage', ['message_title' => 'OK',
+    'message_content' => 'サブビュー'])
 
-        @slot('message_content')
-            これはメッセージの表示です
-        @endslot
-    @endcomponent
 @endsection
 
 @section('footer')
