@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/hello/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="495">
+              <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -322,11 +322,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559978291112</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="edit バリテーションでエラーメッセージを表示する">
+      <created>1559978531080</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559978531080</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11838000" />
+    <option name="totallyTimeSpent" value="11969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -465,7 +472,8 @@
     <MESSAGE value="edit グローバルミドルウェアを使う" />
     <MESSAGE value="edit グループミドルウェアを使う" />
     <MESSAGE value="edit バリテーションを使う" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit バリテーションを使う" />
+    <MESSAGE value="edit バリテーションでエラーメッセージを表示する" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit バリテーションでエラーメッセージを表示する" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/hello/index.php">
@@ -550,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/hello/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="495">
+          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
         </state>
       </provider>
     </entry>
