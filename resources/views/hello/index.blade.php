@@ -14,7 +14,7 @@
     @endif
     <table>
         <form action="/hello" method="post">
-            {{ csrf_field() }}
+{{--            {{ csrf_field() }}--}}
             @if($errors->has('name'))
             <tr>
                 <th>エラー：</th>
