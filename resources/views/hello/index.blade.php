@@ -8,13 +8,27 @@
 @endsection
 
 @section('content')
-    <p>本文コンテンツ</p>
-    <p>本文コンテンツ</p>
-
-
-    <p>これは、<middleware>google.com</middleware>へのリンクです</p>
-    <p>これは、<middleware>yahoo.co.jp</middleware>へのリンクです</p>
-
+    <p>{{ $msg }}</p>
+    <table>
+        <form action="/hello" method="post">
+            {{ csrf_field() }}
+            <tr>
+                <th>name:</th>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <th>mail:</th>
+                <td><input type="email" name="mail"></td>
+            </tr>
+            <tr>
+                <th>age:</th>
+                <td><input type="text" name="age"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+        </form>
+    </table>
 @endsection
 
 @section('footer')
