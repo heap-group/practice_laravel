@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HelloController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="135">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
               <folding>
                 <element signature="e#40#75#0#PHP" expanded="true" />
               </folding>
@@ -391,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559989577107</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="edit 独自バリテーター　エラーメッセージの日本語化">
+      <created>1559990048854</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1559990048854</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15980000" />
+    <option name="totallyTimeSpent" value="16451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -535,7 +542,8 @@
     <MESSAGE value="edit バリテーションのメッセージを日本語に上書きする" />
     <MESSAGE value="edit 独自バリテーターの作成" />
     <MESSAGE value="edit 独自バリテーター　クエリーパラメータにバリテーションを適応する" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit 独自バリテーター　クエリーパラメータにバリテーションを適応する" />
+    <MESSAGE value="edit 独自バリテーター　エラーメッセージの日本語化" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 独自バリテーター　エラーメッセージの日本語化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/hello/index.php">
@@ -627,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HelloController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="135">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="e#40#75#0#PHP" expanded="true" />
           </folding>
