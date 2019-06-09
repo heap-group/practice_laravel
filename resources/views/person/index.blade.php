@@ -9,17 +9,10 @@
     <table>
         <table>
             <tr>
-                <th>id</th>
-                <th>name</th>
-                <th>mail</th>
-                <th>age</th>
             </tr>
             @foreach($items as $item)
                 <tr>
-                    <td>{{ $item->id }}</td>
-                    <td>{{$item->name}}</td>
-                    <td>{{$item->mail}}</td>
-                    <td>{{$item->age}}</td>
+                    <td>{{ $item->getData() }}</td>
                 </tr>
             @endforeach
         </table>
