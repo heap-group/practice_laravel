@@ -13,6 +13,9 @@
             @foreach($items as $item)
                 <tr>
                     <td>{{ $item->getData() }}</td>
+                    @if($item->board != null)
+                    <td>{{ $item->board->getData() }}</td>
+                    @endif
                 </tr>
             @endforeach
         </table>
