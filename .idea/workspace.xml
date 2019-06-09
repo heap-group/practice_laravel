@@ -120,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HelloController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+            <state relative-caret-position="241">
+              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -660,7 +660,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560038964791</updated>
-      <workItem from="1560038968007" duration="2807000" />
+      <workItem from="1560038968007" duration="3009000" />
     </task>
     <task id="LOCAL-00039" summary="edit workspace.xml">
       <created>1560039181624</created>
@@ -690,11 +690,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560043602689</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="edit クエリビルダーで複数条件の検索（WhereRowでまとめて書く）">
+      <created>1560043809861</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560043809861</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29079000" />
+    <option name="totallyTimeSpent" value="29281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -833,7 +840,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit バリテーションでエラーメッセージを表示する" />
     <MESSAGE value="edit バリテーションでエラー時に値を保持する" />
     <MESSAGE value="edit バリテーションでエラー時に個別でエラーを表示する" />
     <MESSAGE value="edit バリテーションをカスタマイズする" />
@@ -858,7 +864,8 @@
     <MESSAGE value="edit クエリビルダーを使いテーブルの全件取得とWHERE条件を使ったデータ取得" />
     <MESSAGE value="edit クエリビルダーで演算記号を使った検索（xx以下の条件）" />
     <MESSAGE value="edit クエリビルダーで複数条件の検索（orWhere いずれかに合致するデータ）" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit クエリビルダーで複数条件の検索（orWhere いずれかに合致するデータ）" />
+    <MESSAGE value="edit クエリビルダーで複数条件の検索（WhereRowでまとめて書く）" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit クエリビルダーで複数条件の検索（WhereRowでまとめて書く）" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/hello/index.php">
@@ -1027,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HelloController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+        <state relative-caret-position="241">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
