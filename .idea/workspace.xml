@@ -7,6 +7,7 @@
     <list default="true" id="6bdfd565-832d-4915-8c30-367d92b03e2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PersonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PersonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Person.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -117,11 +118,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PersonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+            <state relative-caret-position="526">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -129,10 +130,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Person.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/PeopleTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="264">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#7#38#0#PHP" expanded="true" />
@@ -179,10 +189,10 @@
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/database/seeds/PeopleTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Person.php" />
         <option value="$PROJECT_DIR$/resources/views/person/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/person/find.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Person.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PersonController.php" />
       </list>
     </option>
@@ -338,12 +348,6 @@
             <path>
               <item name="laravelNyumon" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravelNyumon" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravelNyumon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravelNyumon" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -413,20 +417,6 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00005" summary="edit Bladeテンプレートの表示">
-      <created>1559958087425</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1559958087425</updated>
-    </task>
-    <task id="LOCAL-00006" summary="edit フォームの値を受け取って表示する">
-      <created>1559959274153</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1559959274153</updated>
-    </task>
     <task id="LOCAL-00007" summary="edit @sectionと@yieldの使い方">
       <created>1559963092357</created>
       <option name="number" value="00007" />
@@ -658,7 +648,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560038964791</updated>
       <workItem from="1560038968007" duration="7202000" />
-      <workItem from="1560062704005" duration="321000" />
+      <workItem from="1560062704005" duration="2322000" />
     </task>
     <task id="LOCAL-00039" summary="edit workspace.xml">
       <created>1560039181624</created>
@@ -765,11 +755,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560048745317</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="edit モデルにメソッドを定義し、where条件で名前検索できるようにする">
+      <created>1560063380864</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1560063380864</updated>
+    </task>
+    <task id="LOCAL-00055" summary="edit ローカルスクープを使用した検索">
+      <created>1560065672643</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1560065672643</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33795000" />
+    <option name="totallyTimeSpent" value="35796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -790,12 +794,34 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.72527474" weight="0.34691745" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2747253" side_tool="true" weight="0.34796238" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.34587252" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" weight="0.34587252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16117217" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.72527474" weight="0.34691745" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2747253" side_tool="true" weight="0.34796238" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" visible="true" weight="0.34587252" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -913,8 +939,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit 部分的にCSRF対策をOFFにする" />
-    <MESSAGE value="edit Cookieの読み書き" />
     <MESSAGE value="edit DB接続設定" />
     <MESSAGE value="edit DBクラス（クエリビルダー）でデータ取得" />
     <MESSAGE value="edit DBクラス（クエリビルダー）プレースホルダーを使ったWHERE検索" />
@@ -938,7 +962,9 @@
     <MESSAGE value="edit モデルを作成しORMを使ってデータを全件取得する" />
     <MESSAGE value="edit モデルにメソッドを定義し、値を取り出す" />
     <MESSAGE value="edit モデルにメソッドを定義し、IDカラムで検索できるようにする" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit モデルにメソッドを定義し、IDカラムで検索できるようにする" />
+    <MESSAGE value="edit モデルにメソッドを定義し、where条件で名前検索できるようにする" />
+    <MESSAGE value="edit ローカルスクープを使用した検索" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit ローカルスクープを使用した検索" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/hello/index.php">
@@ -1111,13 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/hello/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1153,22 +1172,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PersonController.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/PeopleTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+        <state relative-caret-position="264">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="29" />
           <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/PeopleTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/app/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="396">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PersonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
+            <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
