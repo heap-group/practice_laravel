@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bdfd565-832d-4915-8c30-367d92b03e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Scopes/ScopePerson.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Person.php" afterDir="false" />
     </list>
@@ -129,13 +130,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Person.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+            <state relative-caret-position="494">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
               <folding>
                 <element signature="e#23#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Scopes/ScopePerson.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="e#28#67#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,7 +208,9 @@
         <option value="$PROJECT_DIR$/resources/views/person/find.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PersonController.php" />
+        <option value="$PROJECT_DIR$/app/Scope/ScopePerson.php" />
         <option value="$PROJECT_DIR$/app/Person.php" />
+        <option value="$PROJECT_DIR$/app/Scopes/ScopePerson.php" />
       </list>
     </option>
   </component>
@@ -419,13 +434,6 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00008" summary="edit @slotの使い方">
-      <created>1559963577748</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1559963577748</updated>
-    </task>
     <task id="LOCAL-00009" summary="edit @includeの使い方 @includeでデータを渡す">
       <created>1559963821605</created>
       <option name="number" value="00009" />
@@ -643,7 +651,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560038964791</updated>
       <workItem from="1560038968007" duration="7202000" />
-      <workItem from="1560062704005" duration="2870000" />
+      <workItem from="1560062704005" duration="3470000" />
     </task>
     <task id="LOCAL-00039" summary="edit workspace.xml">
       <created>1560039181624</created>
@@ -771,17 +779,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560066457622</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="edit グローバルスクープを組み合わせた検索">
+      <created>1560067013415</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1560067013415</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36344000" />
+    <option name="totallyTimeSpent" value="36944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16117217" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16117217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -793,7 +808,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.72527474" visible="true" weight="0.2277952" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.72527474" visible="true" weight="0.2277952" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2747253" side_tool="true" weight="0.34796238" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498779" weight="0.34587252" />
@@ -941,7 +956,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit DBクラス（クエリビルダー）でデータ取得" />
     <MESSAGE value="edit DBクラス（クエリビルダー）プレースホルダーを使ったWHERE検索" />
     <MESSAGE value="edit DBクラス（クエリビルダー）プレースホルダーを使ったデータ登録" />
     <MESSAGE value="edit DBクラス（クエリビルダー）プレースホルダーを使ったデータ更新" />
@@ -966,7 +980,8 @@
     <MESSAGE value="edit モデルにメソッドを定義し、where条件で名前検索できるようにする" />
     <MESSAGE value="edit ローカルスクープを使用した検索" />
     <MESSAGE value="edit ローカルスクープを組み合わせた検索" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit ローカルスクープを組み合わせた検索" />
+    <MESSAGE value="edit グローバルスクープを組み合わせた検索" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit グローバルスクープを組み合わせた検索" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/hello/index.php">
@@ -1196,10 +1211,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="494">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
           <folding>
             <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Scopes/ScopePerson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="e#28#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
