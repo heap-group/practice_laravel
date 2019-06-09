@@ -8,12 +8,14 @@
 @endsection
 
 @section('content')
-    <form action="/hello/edit" method="post">
-        <p>id:{{ $item->id }}</p>
-        <p>name:{{ $item->name }}</p>
-        <p>mail:{{ $item->mail }}</p>
-        <p>age:{{ $item->age }}</p>
-    </form>
+    @foreach($items as $item)
+        @if($item != null)
+            <p>id:{{ $item->id }}</p>
+            <p>name:{{ $item->name }}</p>
+            <p>mail:{{ $item->mail }}</p>
+            <p>age:{{ $item->age }}</p>
+        @endif
+    @endforeach
 @endsection
 
 @section('footer')
