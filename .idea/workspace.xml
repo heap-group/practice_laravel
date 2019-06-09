@@ -117,11 +117,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HelloController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+            <state relative-caret-position="169">
+              <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -129,11 +129,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/hello/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="420">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="e#609#615#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,8 +193,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/hello/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HelloController.php" />
         <option value="$PROJECT_DIR$/resources/views/hello/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HelloController.php" />
       </list>
     </option>
   </component>
@@ -669,7 +672,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560038964791</updated>
-      <workItem from="1560038968007" duration="3713000" />
+      <workItem from="1560038968007" duration="4063000" />
     </task>
     <task id="LOCAL-00039" summary="edit workspace.xml">
       <created>1560039181624</created>
@@ -727,11 +730,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560044367341</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="edit クエリビルダーでデータ更新">
+      <created>1560044863370</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1560044863370</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29985000" />
+    <option name="totallyTimeSpent" value="30335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -870,7 +880,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit バリテーションのメッセージを日本語に上書きする" />
     <MESSAGE value="edit 独自バリテーターの作成" />
     <MESSAGE value="edit 独自バリテーター　クエリーパラメータにバリテーションを適応する" />
     <MESSAGE value="edit 独自バリテーター　エラーメッセージの日本語化" />
@@ -895,7 +904,8 @@
     <MESSAGE value="edit クエリビルダーでデータの並び替え（昇順）" />
     <MESSAGE value="edit クエリビルダーで表示けんすうと表示開始データを絞り込む（offset limit）" />
     <MESSAGE value="edit クエリビルダーでデータ登録" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit クエリビルダーでデータ登録" />
+    <MESSAGE value="edit クエリビルダーでデータ更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit クエリビルダーでデータ更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/hello/index.php">
@@ -1055,20 +1065,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HelloController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/hello/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        <state relative-caret-position="420">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#609#615#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/hello/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HelloController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="169">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
