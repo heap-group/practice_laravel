@@ -13,8 +13,10 @@
             @foreach($items as $item)
                 <tr>
                     <td>{{ $item->getData() }}</td>
-                    @if($item->board != null)
-                    <td>{{ $item->board->getData() }}</td>
+                    @if($item->boards != null)
+                        @foreach($item->boards as $obj)
+                            <td>{{ $obj->getData() }}</td>
+                        @endforeach
                     @endif
                 </tr>
             @endforeach
