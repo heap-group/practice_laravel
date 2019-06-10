@@ -6,11 +6,10 @@
 @endsection
 
 @section('content')
-    <table>
         <table>
             <tr>
             </tr>
-            @foreach($items as $item)
+            @foreach($hasItems as $item)
                 <tr>
                     <td>{{ $item->getData() }}</td>
                     @if($item->boards != null)
@@ -21,7 +20,16 @@
                 </tr>
             @endforeach
         </table>
-    </table>
+        <table>
+            <tr>
+                投稿してない
+            </tr>
+            @foreach($noItems as $item)
+                <tr>
+                    <td>{{ $item->getData() }}</td>
+                </tr>
+            @endforeach
+        </table>
 @endsection
 
 @section('footer')
