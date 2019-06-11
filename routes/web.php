@@ -38,4 +38,8 @@ Route::get('board/add', 'BoardController@add');
 Route::post('board/add', 'BoardController@create');
 
 Route::resource('rest', 'RestappController');
-route::get('hello/rest', 'HelloController@rest');
+Route::get('hello/rest', 'HelloController@rest');
+
+Route::get('hello/session', 'HelloController@getSession');
+Route::post('hello/session', 'HelloController@setSession');
+
