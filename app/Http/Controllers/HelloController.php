@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Restdata;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -87,5 +88,10 @@ class HelloController extends Controller
         DB::table('people')->where('id', $request->id)->delete();
 
         return redirect('/hello');
+    }
+
+    public function rest(Request $request)
+    {
+        return view('hello.rest');
     }
 }
