@@ -24,6 +24,7 @@
             @endforeach
         </table>
     </table>
+    {{ $items->links() }}
 @endsection
 
 @section('footer')
