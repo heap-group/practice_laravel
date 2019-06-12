@@ -43,3 +43,7 @@ Route::get('hello/rest', 'HelloController@rest');
 Route::get('hello/session', 'HelloController@getSession');
 Route::post('hello/session', 'HelloController@setSession');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

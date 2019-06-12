@@ -8,6 +8,13 @@
 @endsection
 
 @section('content')
+    @if(Auth::check())
+        <p>User: {{ $user->name. '...'. $user->email }}</p>
+    @else
+        <p>ログインなし</p>
+        <a href="/login">ログイン</a>
+        <a href="/register">登録</a>
+    @endif
     <table>
         <table>
             <tr>
