@@ -8,6 +8,10 @@ use App\Scopes\ScopePerson;
 
 class Person extends Model
 {
+    protected $fillable = [
+
+    ];
+
     public function getData()
     {
         return $this->id. ': '. $this->name. ' ('. $this->age. ')';

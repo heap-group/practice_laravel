@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Person;
 use App\Restdata;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -13,7 +14,7 @@ class HelloController extends Controller
     public function index(Request $request)
     {
         $user = Auth::user();
-        $items = DB::table('people')->orderBy('age', 'asc')->simplePaginate(5);
+        $items = Person::paginate(5);
         return view('hello.index', ['items' => $items, 'user' => $user]);
     }
 
