@@ -7,6 +7,7 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use App\User;
+use App\Person;
 
 class HelloTest extends TestCase
 {
@@ -18,21 +19,34 @@ class HelloTest extends TestCase
      */
     public function testHello()
     {
-        $this->assertTrue(true);
 
-        $response = $this->get('/');
-        $response->assertStatus(404);
+        //ダミーデータ
+        factory(User::class)->create([
+           'name' => 'AAA',
+           'email' => 'BBB@gmail.com',
+           'password' => 'hogehoge'
+        ]);
+        factory(User::class, 10)->create();
 
-        $response = $this->get('/hello');
-        $response->assertStatus(302);
+        $this->assertDatabaseHas('users', [
+            'name' => 'AAA',
+            'email' => 'BBB@gmail.com',
+            'password' => 'hogehoge'
+        ]);
 
-        //ログインしなければアクセスできない処理のテスト
-        $user = factory(User::class)->create();
-        $response = $this->actingAs($user)->get('/hello');
-        $response->assertStatus(200);
+        //ダミーデータ
+        factory(Person::class)->create([
+            'name' => 'CCC',
+            'mail' => 'BBA@gmail.com',
+            'age' => 100
+        ]);
+        factory(Person::class, 10)->create();
 
-        $response = $this->get('/no_route');
-        $response->assertStatus(404);
+        $this->assertDatabaseHas('people', [
+            'name' => 'CCC',
+            'mail' => 'BBA@gmail.com',
+            'age' => 100
+        ]);
 
     }
 }
